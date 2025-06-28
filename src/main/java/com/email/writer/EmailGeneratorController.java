@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmailGeneratorController {
 
     public ResponseEntity<String> generateEmail(@RequestBody EmailRequest emailRequest){
-        return ResponseEntity.ok(body: " ");
+        return ResponseEntity.ok(" ");
     }
 
 }
